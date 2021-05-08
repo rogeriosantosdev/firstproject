@@ -1,0 +1,104 @@
+/*Corpo do seu site, pode ser alterado da sua maneira preferida*/
+body{
+    font-family: Arial;
+    background-color: #dbdbdb;
+}
+
+/*Header do seu site, pode ser alterado da sua maneira preferida*/
+header{
+    background: #000;
+    padding: 25px 0;
+    height: 100px;
+    border-radius: 15px;
+}
+
+/*Estruturas da navbar*/
+.caixa{
+    width: 1200px;
+    position: absolute;
+    margin: 0, auto;
+}
+
+/*Formatação do logo*/
+.logo-inicio{
+    width: 60px;
+    border-radius: 10px;
+}
+
+/*Formatação da nav*/
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+}
+
+/*Formatação da nav li*/
+nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+/*Formatação da nav a*/
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+/*Formatação da nav a que serve para fazer a sombra verde quando o mouse é colocado em cima dos links*/
+nav a:hover{
+    color: #2DD669;
+}
+
+/*Formatação da imagem que está junto com o primeiro texto*/
+#imagemtext{
+    width: 200px;
+    float: left;
+    margin: 0px 10px;
+}
+
+/*Formatação do segundo texto*/
+.textos{
+    padding: 3px 0;
+}
+
+/*Formatação dos parágrafos*/
+p{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+}
+
+/*Formatação dos títulos*/
+h1{
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+/*Formatação do mapa*/
+#mapsiframe{
+    width: 50%;
+    border: 0px;
+    padding: 10px;
+}
+
+/*Formatação do rodapé e da imagem de fundo*/
+footer {
+    text-align: center;
+    background: url("/images/imagem\ footer.jpg");
+    width: 1310px;
+    padding: 10px;
+}
+
+/*Formatação da imagem do logo no rodapé*/
+.imagemfooter{
+    width: 60px;
+    border-radius: 10px;
+}
+
+/*Formatação do copyright*/
+.copyright {
+    color: #ADA2AD;
+    font-size: 15px;
+    padding-bottom: 40px;
+    line-height: 0;
+}

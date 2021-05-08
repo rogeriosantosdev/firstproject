@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lorem ipsum dolor</title> <!--Título da página-->
+    <link rel="stylesheet" href="/css/pagina.css"/><!--Link para poder contrar o css da sua página-->
+</head>
+<!--Final do cabeçalho-->
+
+<!--Início do corpo do seu site-->
+<body><!--Separe o código por header, div, nav e section para que seja fácil de ser entendido e o código esteja bem organizado-->
+    <header>
+        <div class = "caixa"> <!--Classe que pode ser organizada o navbar do seu código-->
+
+            <!--Nas "/ você coloca a sua imagem como já explicado", caso não queira imagem, só efetuar a remoção das duas linhas do código-->
+            <img src="/images/imagem logo.jpg" class="logo-inicio" alt="logo home">
+            <nav>
+                <!--Início da sua lista não ordenadas-->
+                <ul> <!--ul são listas não ordenadas-->
+                <li> <!--Os li são as listas -->
+                    <a href ="Link1"> <!--Para ficar clicavel e ir para um outro lugar é necessário que você coloque o <a> </a> e dentro do href coloque para onde o usuário está sendo levado.-->
+                        <!--Aqui você pode colocar o que você quer escrito na sua navbar-->
+                        Link 1
+                    </a>
+                </li>
+                <li>
+                    <a href="Link2">
+                        Link 2
+                    </a>
+                </li>
+                <li>
+                    <a href="Link3">
+                        Link 3
+                    </a>
+
+                </li>
+                <li>
+                    <a href="Link4">
+                        Link 4
+                    </a>
+                </li>
+                </ul>
+                <!--Final da sua lista não ordenadas-->
+            </nav>
+        </div>
+    </header>
+    <!--Final do seu navbar-->
+
+
+    <!--Lembrando sempre para que seu código seja separado por seções para que esteja bem organizado-->
+    <main>
+        <section> <!--Início da primeira parte de textos-->
+            <div>
+                <!--Coloque aqui o seu título no h1 e texto desejado no p, caso deseje diminuir a fonte do título, altere para h2 ou outros-->
+                <h1>Lorem ipsum dolor</h1>
+                <!--Dentro das aspas de img src, você coloca / e seleciona o diretório onde se encontra a sua imagem, a class é fundamental para que você possa editar o tamanho da sua imagem-->
+                    <img src="/images/imagem texto.jpg" id="imagemtext" alt="imagemtext">
+                    <!--A imagem abaixo do título serve como uma hierarquia para ficar nessa ordem-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+            </div>
+        </section> <!--Final da primeira parte de textos-->
+
+        <!--Início da segunda parte de textos-->
+        <section>
+            <div class="textos"> <!--Superficialmente, as class serve para serem editadas no css, para organizar cores, margens, alturas e etc...-->
+
+                <!--Coloque aqui o seu título no h1 e texto desejado no p-->
+                <h1>Lorem ipsum dolor</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus. Bibendum at varius vel pharetra vel.</p>
+
+                <h1>Lorem ipsum dolor</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus. Bibendum at varius vel pharetra vel.
+                </p>
+                
+                <h1>Lorem ipsum dolor</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus. Bibendum at varius vel pharetra vel.
+                </p>
+            </div>
+        </section> <!--Final da segunda parte de textos-->
+
+
+        <section>  <!--Início da terceira parte de textos com maps-->
+            <div class="div-map">
+                <h1>Lorem ipsum dolor</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ullamcorper sit amet risus. Bibendum at varius vel pharetra vel</p>
+
+                    <!--Para colocar o link do local desejado você vai até o google maps, pesquisa pelo local, vai no menu aperta imprimir ou incorporar o mapa, após isso você vai até incorporar o mapa e copia o código. Sobre a formatação do maps eu fiz no css mas você pode definir algura e largura por aqui mesmo em width, height e etc...-->
+                        <iframe id="mapsiframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37494223.23909492!2d103!3d55!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x453c569a896724fb%3A0x1409fdf86611f613!2zUsO6c3NpYQ!5e0!3m2!1spt-BR!2sbr!4v1620445580763!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section> <!--Final da terceira parte de textos com maps.-->
+    </main> <!--Final da parte principal do seu site.-->
+
+    <!--Início do rodapé do seu site-->
+    <footer> 
+        <!--Nas "/ você coloca a sua imagem como já explicado", caso não queira imagem no seu rodapé, só efetuar a remoção da linha abaixo no código-->
+        <img src="/images/imagem logo.jpg" class="imagemfooter" alt="logo da anonymous"/>
+        <!--Início do Copyright-->
+        <p class="copyright">&copy; Copyright Lorem ipsum dolor - 2021</p>
+        <!--Final do Copyright-->
+    </footer> 
+        <!--Final do rodapé-->
+    
+</body>
+</html>
